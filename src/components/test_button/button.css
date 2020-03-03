@@ -1,0 +1,6 @@
+.sidebar_main button {
+    width: 100%;
+    border-radius: 0 !important;
+    padding: .5rem !important;
+    text-align: left !important;
+}

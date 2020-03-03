@@ -1,0 +1,12 @@
+.container {
+    width: 90%;
+    min-width: 1000px;
+    height: 100%;
+    box-sizing: border-box;
+    display: inline-block;
+}
+
+.container h1 {
+    text-align: center;
+}
+

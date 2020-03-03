@@ -1,0 +1,13 @@
+.sidebar_main
+{
+    min-width: 100px;
+    max-width: 10%;
+    height: 100%;
+    background-color: #E0E1E2 ;
+    box-sizing: border-box;
+    display: inline-block;
+    position: sticky !important;
+    position: -webkit-sticky;
+    top: 0px !important; /* required */
+}
+
