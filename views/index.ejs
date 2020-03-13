@@ -8,8 +8,25 @@
     <title>Document</title>
 </head>
 <body>
-    <div id="root"></div>
+    
+    <div id="root">
+            <%- locals.content %>
+    </div>
 
-    <script src="/public/dist/<%= bundle %>.js"></script>
+    
+        
+    <script src="../public/dist/ssr-bundle.js"></script>
+        
+
+    <!-- <script>
+        var test_btn = document.querySelector('#test_button');
+
+
+        test_btn.addEventListener('click', function(){
+            console.log('test');
+        })
+    </script> -->
+
+
 </body>
 </html>

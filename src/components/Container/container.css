@@ -4,6 +4,7 @@
     height: 100%;
     box-sizing: border-box;
     display: inline-block;
+    overflow-y: scroll;
 }
 
 .container h1 {

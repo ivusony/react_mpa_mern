@@ -5,19 +5,25 @@
   "main": "index.js",
   "scripts": {
     "build": "webpack",
-    "start": "supervisor server.js"
+    "start": "supervisor server.js",
+    "dev": "supervisor --exec babel-node ./server/bootstrap.js"
   },
   "author": "",
   "license": "ISC",
+  "engines": {
+    "node": "10.16.0"
+  },
   "dependencies": {
     "@babel/preset-react": "^7.8.3",
     "babel-preset-react": "^6.24.1",
+    "babel-register": "^6.26.0",
     "body-parser": "^1.19.0",
     "css-loader": "^3.4.2",
     "ejs": "^3.0.1",
     "expose-loader": "^0.7.5",
     "express": "^4.17.1",
     "jquery": "^3.4.1",
+    "mongoose": "^5.9.3",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
     "semantic-ui-css": "^2.4.1",
@@ -26,9 +32,15 @@
     "url-loader": "^3.0.0"
   },
   "devDependencies": {
-    "@babel/core": "^7.8.4",
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.8.7",
+    "@babel/node": "^7.8.7",
+    "@babel/plugin-transform-modules-commonjs": "^7.8.3",
+    "@babel/plugin-transform-react-jsx": "^7.8.3",
     "@babel/preset-env": "^7.8.4",
     "babel-loader": "^8.0.6",
+    "faker": "^4.1.0",
+    "nodemon": "^2.0.2",
     "supervisor": "^0.12.0",
     "webpack": "^4.41.6",
     "webpack-cli": "^3.3.11"

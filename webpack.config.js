@@ -5,9 +5,9 @@ module.exports = {
     mode : 'development',
     entry : {
         // react render
-        home     :      "./src/scripts/Home_Render",
-        products :      "./src/scripts/Products_Render",
-        pricing  :      "./src/scripts/Pricing_Render.js"
+
+        ssr : './src/front_bundle_entry/ssr.js'
+       
     },
     output: {
         path : path.resolve(__dirname, "./public/dist/"),

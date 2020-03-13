@@ -1,7 +1,14 @@
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 
-import '../test_button/button.css'
+// import '../test_button/button.css'
+
+var buttonStyle = {
+    width       : "100%",
+    borderRadius: "0 !important",
+    padding     : ".5rem !important",
+    textAlign   : "left !important"
+}
 
 class Button extends React.Component {
     constructor(props) {
@@ -10,7 +17,7 @@ class Button extends React.Component {
 
     render() {
         return (
-            <button className="ui button" onClick={this.props.CB}>{this.props.Title}</button>
+            <button className="ui button" style={buttonStyle} onClick={this.props.CB}>{this.props.Title}</button>
         )
     }
 }
