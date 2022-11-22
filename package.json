@@ -43,6 +43,6 @@
     "nodemon": "^2.0.2",
     "supervisor": "^0.12.0",
     "webpack": "^4.41.6",
-    "webpack-cli": "^3.3.11"
+    "webpack-cli": "^3.3.12"
   }
 }
